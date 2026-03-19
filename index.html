@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RJ Square Service Point</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial;
+      background: #eaeded;
+    }
+
+    /* Navbar */
+    .navbar {
+      background: #131921;
+      color: white;
+      padding: 15px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    /* Container */
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    /* Product Card */
+    .card {
+      background: white;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #ccc;
+      text-align: center;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+    }
+
+    .price {
+      color: green;
+      font-weight: bold;
+      margin: 10px 0;
+    }
+
+    button {
+      background: #ffd814;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    button:hover {
+      background: #f7ca00;
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="navbar">
+  RJ Square Service Point
+</div>
+
+<div class="container">
+
+  <!-- Product 1 -->
+  <div class="card">
+    <img src="https://via.placeholder.com/200">
+    <h3>Passport Photo</h3>
+    <p class="price">₹50</p>
+    <button>Order Now</button>
+  </div>
+
+  <!-- Product 2 -->
+  <div class="card">
+    <img src="https://via.placeholder.com/200">
+    <h3>Photo Print</h3>
+    <p class="price">₹10 / piece</p>
+    <button>Order Now</button>
+  </div>
+
+  <!-- Product 3 -->
+  <div class="card">
+    <img src="https://via.placeholder.com/200">
+    <h3>Mobile Cover Print</h3>
+    <p class="price">₹199</p>
+    <button>Order Now</button>
+  </div>
+
+  <!-- Product 4 -->
+  <div class="card">
+    <img src="https://via.placeholder.com/200">
+    <h3>Custom Mug Print</h3>
+    <p class="price">₹249</p>
+    <button>Order Now</button>
+  </div>
+
+</div>
+
+</body>
+</html>
